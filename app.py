@@ -9,7 +9,7 @@ sg = SegmentModel()
 
 #Define flask app
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'gnvml'
+app.config['SECRET_KEY'] = 'minhson'
 app.config['UPLOADED_PHOTOS_DEST'] = 'uploads'
 
 photos = UploadSet('photos', IMAGES)
